@@ -1,0 +1,8 @@
+
+http_451.http451_controller_http451:
+  path: '/http_451/http451'
+  defaults:
+    _controller: '\Drupal\http_451\Controller\Http451Controller::http451'
+    _title: 'http451Controller'
+  requirements:
+    _permission: 'access content'

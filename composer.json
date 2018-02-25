@@ -1,0 +1,14 @@
+{
+  "name": "drupal/http_451",
+  "type": "drupal-module",
+  "description": "Page Unavailable for Legal Reasons",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/http_451",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/http_451",
+    "source": "http://cgit.drupalcode.org/http_451"
+  },
+  "require": { }
+}

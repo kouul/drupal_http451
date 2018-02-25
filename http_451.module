@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains http_451.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function http_451_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the http_451 module.
+    case 'help.page.http_451':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Page Unavailable for Legal Reasons') . '</p>';
+      return $output;
+
+    default:
+  }
+}
